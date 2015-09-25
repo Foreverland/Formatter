@@ -1,4 +1,4 @@
-#import "Field.h"
+@import Foundation;
 
 @interface Formatter : NSObject
 

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141F14B91BB5361000CFA5DC /* BankAccountNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F14AE1BB5361000CFA5DC /* BankAccountNumberFormatter.m */; settings = {ASSET_TAGS = (); }; };
+		141F14BA1BB5361000CFA5DC /* EmailFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F14B01BB5361000CFA5DC /* EmailFormatter.m */; settings = {ASSET_TAGS = (); }; };
+		141F14BB1BB5361000CFA5DC /* FloatFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F14B21BB5361000CFA5DC /* FloatFormatter.m */; settings = {ASSET_TAGS = (); }; };
+		141F14BC1BB5361000CFA5DC /* Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F14B41BB5361000CFA5DC /* Formatter.m */; settings = {ASSET_TAGS = (); }; };
+		141F14BD1BB5361000CFA5DC /* PhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F14B61BB5361000CFA5DC /* PhoneNumberFormatter.m */; settings = {ASSET_TAGS = (); }; };
+		141F14BE1BB5361000CFA5DC /* SocialSecurityNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 141F14B81BB5361000CFA5DC /* SocialSecurityNumberFormatter.m */; settings = {ASSET_TAGS = (); }; };
 		142A42281B2312B600AFE37D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142A42271B2312B600AFE37D /* AppDelegate.swift */; };
 		142A422A1B2312B600AFE37D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142A42291B2312B600AFE37D /* Images.xcassets */; };
 		142A422D1B2312B600AFE37D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 142A422B1B2312B600AFE37D /* LaunchScreen.xib */; };
@@ -14,6 +20,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		141F14AC1BB5360F00CFA5DC /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
+		141F14AD1BB5361000CFA5DC /* BankAccountNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankAccountNumberFormatter.h; sourceTree = "<group>"; };
+		141F14AE1BB5361000CFA5DC /* BankAccountNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccountNumberFormatter.m; sourceTree = "<group>"; };
+		141F14AF1BB5361000CFA5DC /* EmailFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailFormatter.h; sourceTree = "<group>"; };
+		141F14B01BB5361000CFA5DC /* EmailFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailFormatter.m; sourceTree = "<group>"; };
+		141F14B11BB5361000CFA5DC /* FloatFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatFormatter.h; sourceTree = "<group>"; };
+		141F14B21BB5361000CFA5DC /* FloatFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatFormatter.m; sourceTree = "<group>"; };
+		141F14B31BB5361000CFA5DC /* Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formatter.h; sourceTree = "<group>"; };
+		141F14B41BB5361000CFA5DC /* Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Formatter.m; sourceTree = "<group>"; };
+		141F14B51BB5361000CFA5DC /* PhoneNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberFormatter.h; sourceTree = "<group>"; };
+		141F14B61BB5361000CFA5DC /* PhoneNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberFormatter.m; sourceTree = "<group>"; };
+		141F14B71BB5361000CFA5DC /* SocialSecurityNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialSecurityNumberFormatter.h; sourceTree = "<group>"; };
+		141F14B81BB5361000CFA5DC /* SocialSecurityNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialSecurityNumberFormatter.m; sourceTree = "<group>"; };
 		142A42231B2312B600AFE37D /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		142A42261B2312B600AFE37D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		142A42271B2312B600AFE37D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +46,6 @@
 		14C136521AB784B200B7B07A /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		14C136541AB784B200B7B07A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		14C136551AB784B200B7B07A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		14C1365C1AB784BC00B7B07A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +139,19 @@
 		14C1365B1AB784BC00B7B07A /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				14C1365C1AB784BC00B7B07A /* .gitkeep */,
+				141F14AD1BB5361000CFA5DC /* BankAccountNumberFormatter.h */,
+				141F14AE1BB5361000CFA5DC /* BankAccountNumberFormatter.m */,
+				141F14AF1BB5361000CFA5DC /* EmailFormatter.h */,
+				141F14B01BB5361000CFA5DC /* EmailFormatter.m */,
+				141F14B11BB5361000CFA5DC /* FloatFormatter.h */,
+				141F14B21BB5361000CFA5DC /* FloatFormatter.m */,
+				141F14B31BB5361000CFA5DC /* Formatter.h */,
+				141F14B41BB5361000CFA5DC /* Formatter.m */,
+				141F14B51BB5361000CFA5DC /* PhoneNumberFormatter.h */,
+				141F14B61BB5361000CFA5DC /* PhoneNumberFormatter.m */,
+				141F14B71BB5361000CFA5DC /* SocialSecurityNumberFormatter.h */,
+				141F14B81BB5361000CFA5DC /* SocialSecurityNumberFormatter.m */,
+				141F14AC1BB5360F00CFA5DC /* App-Bridging-Header.h */,
 			);
 			name = Source;
 			path = ../Source;
@@ -171,7 +201,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PREFIX;
-				LastUpgradeCheck = 0620;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "COMPANY NAME";
 				TargetAttributes = {
 					142A42221B2312B600AFE37D = {
@@ -226,6 +257,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				142A42281B2312B600AFE37D /* AppDelegate.swift in Sources */,
+				141F14BB1BB5361000CFA5DC /* FloatFormatter.m in Sources */,
+				141F14BA1BB5361000CFA5DC /* EmailFormatter.m in Sources */,
+				141F14B91BB5361000CFA5DC /* BankAccountNumberFormatter.m in Sources */,
+				141F14BD1BB5361000CFA5DC /* PhoneNumberFormatter.m in Sources */,
+				141F14BC1BB5361000CFA5DC /* Formatter.m in Sources */,
+				141F14BE1BB5361000CFA5DC /* SocialSecurityNumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +292,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -264,7 +302,9 @@
 				INFOPLIST_FILE = App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.3lvis.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../Source/App-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -273,12 +313,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.3lvis.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../Source/App-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -302,6 +345,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -372,6 +416,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bakkenbaeck.labs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Tests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -388,6 +433,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bakkenbaeck.labs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Tests-Bridging-Header.h";
 			};
@@ -403,6 +449,7 @@
 				142A423B1B2312B600AFE37D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		146D728E1AB782920058798C /* Build configuration list for PBXProject "Pod" */ = {
 			isa = XCConfigurationList;
