@@ -30,7 +30,6 @@
 		1407B4121BB539A4004AA74E /* PhoneNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberFormatter.m; sourceTree = "<group>"; };
 		1407B4131BB539A4004AA74E /* SocialSecurityNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialSecurityNumberFormatter.h; sourceTree = "<group>"; };
 		1407B4141BB539A4004AA74E /* SocialSecurityNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialSecurityNumberFormatter.m; sourceTree = "<group>"; };
-		141F14AC1BB5360F00CFA5DC /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
 		146D72AC1AB782920058798C /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146D72B11AB782920058798C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A139B21AEFC72B00AD732F /* Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -103,19 +102,18 @@
 		14C1365B1AB784BC00B7B07A /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				1407B4091BB539A4004AA74E /* BankAccountNumberFormatter.h */,
-				1407B40A1BB539A4004AA74E /* BankAccountNumberFormatter.m */,
-				1407B40B1BB539A4004AA74E /* EmailFormatter.h */,
-				1407B40C1BB539A4004AA74E /* EmailFormatter.m */,
-				1407B40D1BB539A4004AA74E /* FloatFormatter.h */,
-				1407B40E1BB539A4004AA74E /* FloatFormatter.m */,
 				1407B40F1BB539A4004AA74E /* Formatter.h */,
 				1407B4101BB539A4004AA74E /* Formatter.m */,
+				1407B40D1BB539A4004AA74E /* FloatFormatter.h */,
+				1407B40E1BB539A4004AA74E /* FloatFormatter.m */,
+				1407B40B1BB539A4004AA74E /* EmailFormatter.h */,
+				1407B40C1BB539A4004AA74E /* EmailFormatter.m */,
 				1407B4111BB539A4004AA74E /* PhoneNumberFormatter.h */,
 				1407B4121BB539A4004AA74E /* PhoneNumberFormatter.m */,
+				1407B4091BB539A4004AA74E /* BankAccountNumberFormatter.h */,
+				1407B40A1BB539A4004AA74E /* BankAccountNumberFormatter.m */,
 				1407B4131BB539A4004AA74E /* SocialSecurityNumberFormatter.h */,
 				1407B4141BB539A4004AA74E /* SocialSecurityNumberFormatter.m */,
-				141F14AC1BB5360F00CFA5DC /* App-Bridging-Header.h */,
 			);
 			name = Source;
 			path = ../Source;
