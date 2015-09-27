@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "Formatter"
   s.summary          = "Helps formatting text, card numbers, currency and so on"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.homepage         = "https://github.com/3lvis/Formatter"
   s.license          = 'MIT'
   s.author           = { "Elvis Nuñez" => "elvisnunez@me.com" }
