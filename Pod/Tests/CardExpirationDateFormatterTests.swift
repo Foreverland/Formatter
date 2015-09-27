@@ -1,6 +1,6 @@
 import XCTest
 
-class ExpirationDateFormatterTests: XCTestCase {
+class CardExpirationDateFormatterTests: XCTestCase {
     func testFormatString() {
         let formatter = CardExpirationDateFormatter()
         XCTAssertEqual("12", formatter.formatString("12", reverse: false))
