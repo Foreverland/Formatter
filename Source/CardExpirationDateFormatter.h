@@ -1,6 +1,6 @@
 #import "Formatter.h"
 
-@interface ExpirationDateFormatter : Formatter
+@interface CardExpirationDateFormatter : Formatter
 
 - (NSString *)formatString:(NSString *)string reverse:(BOOL)reverse;
 

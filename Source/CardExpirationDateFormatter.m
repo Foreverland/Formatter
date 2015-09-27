@@ -1,6 +1,6 @@
-#import "ExpirationDateFormatter.h"
+#import "CardExpirationDateFormatter.h"
 
-@implementation ExpirationDateFormatter
+@implementation CardExpirationDateFormatter
 
 - (NSString *)formatString:(NSString *)string reverse:(BOOL)reverse {
     string = [super formatString:string reverse:reverse];
