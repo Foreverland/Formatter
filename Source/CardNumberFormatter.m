@@ -15,12 +15,12 @@
 
     while (idx < rawString.length) {
         characterString = [NSString stringWithFormat:@"%c", [rawString characterAtIndex:idx]];
-        [mutableString appendString:characterString];
 
-        if (idx != 0 && (idx + 1) % 4 == 0) {
+        if (idx != 0 && idx % 4 == 0) {
             [mutableString appendString:@" "];
         }
 
+        [mutableString appendString:characterString];
         ++idx;
     }
 
