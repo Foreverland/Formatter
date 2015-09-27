@@ -14,6 +14,8 @@
 		1407B4181BB539A4004AA74E /* Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407B4101BB539A4004AA74E /* Formatter.m */; settings = {ASSET_TAGS = (); }; };
 		1407B4191BB539A4004AA74E /* PhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407B4121BB539A4004AA74E /* PhoneNumberFormatter.m */; settings = {ASSET_TAGS = (); }; };
 		1407B41A1BB539A4004AA74E /* SocialSecurityNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407B4141BB539A4004AA74E /* SocialSecurityNumberFormatter.m */; settings = {ASSET_TAGS = (); }; };
+		149AF1EF1BB7CB07006F8949 /* CardNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 149AF1EC1BB7CB07006F8949 /* CardNumberFormatter.m */; settings = {ASSET_TAGS = (); }; };
+		149AF1F01BB7CB07006F8949 /* ExpirationDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 149AF1EE1BB7CB07006F8949 /* ExpirationDateFormatter.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		1407B4141BB539A4004AA74E /* SocialSecurityNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialSecurityNumberFormatter.m; sourceTree = "<group>"; };
 		146D72AC1AB782920058798C /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146D72B11AB782920058798C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		149AF1EB1BB7CB07006F8949 /* CardNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardNumberFormatter.h; sourceTree = "<group>"; };
+		149AF1EC1BB7CB07006F8949 /* CardNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardNumberFormatter.m; sourceTree = "<group>"; };
+		149AF1ED1BB7CB07006F8949 /* ExpirationDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpirationDateFormatter.h; sourceTree = "<group>"; };
+		149AF1EE1BB7CB07006F8949 /* ExpirationDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpirationDateFormatter.m; sourceTree = "<group>"; };
 		14A139B21AEFC72B00AD732F /* Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		14C136511AB784B200B7B07A /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		14C136521AB784B200B7B07A /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
@@ -108,8 +114,12 @@
 				1407B40E1BB539A4004AA74E /* FloatFormatter.m */,
 				1407B40B1BB539A4004AA74E /* EmailFormatter.h */,
 				1407B40C1BB539A4004AA74E /* EmailFormatter.m */,
+				149AF1EB1BB7CB07006F8949 /* CardNumberFormatter.h */,
+				149AF1EC1BB7CB07006F8949 /* CardNumberFormatter.m */,
 				1407B4111BB539A4004AA74E /* PhoneNumberFormatter.h */,
 				1407B4121BB539A4004AA74E /* PhoneNumberFormatter.m */,
+				149AF1ED1BB7CB07006F8949 /* ExpirationDateFormatter.h */,
+				149AF1EE1BB7CB07006F8949 /* ExpirationDateFormatter.m */,
 				1407B4091BB539A4004AA74E /* BankAccountNumberFormatter.h */,
 				1407B40A1BB539A4004AA74E /* BankAccountNumberFormatter.m */,
 				1407B4131BB539A4004AA74E /* SocialSecurityNumberFormatter.h */,
@@ -193,8 +203,10 @@
 				1407B41A1BB539A4004AA74E /* SocialSecurityNumberFormatter.m in Sources */,
 				1407B4191BB539A4004AA74E /* PhoneNumberFormatter.m in Sources */,
 				1407B4151BB539A4004AA74E /* BankAccountNumberFormatter.m in Sources */,
+				149AF1F01BB7CB07006F8949 /* ExpirationDateFormatter.m in Sources */,
 				1407B3F61BB53949004AA74E /* EmailFormatterTests.m in Sources */,
 				1407B4161BB539A4004AA74E /* EmailFormatter.m in Sources */,
+				149AF1EF1BB7CB07006F8949 /* CardNumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
