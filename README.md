@@ -1,5 +1,7 @@
 # Formatter
 
+Use `reverse` to return the formatted text to it's original form.
+
 ## Installation
 
 **Formatter** is available through [CocoaPods](http://cocoapods.org). To install
