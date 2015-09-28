@@ -1,6 +1,6 @@
 # Formatter
 
-Use `reverse` to return the formatted text to it's original form.
+Use `reverse` to return the formatted text to its original form.
 
 ## Installation
 
