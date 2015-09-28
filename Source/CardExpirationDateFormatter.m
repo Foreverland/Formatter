@@ -16,11 +16,11 @@
     while (idx < rawString.length) {
         characterString = [NSString stringWithFormat:@"%c", [rawString characterAtIndex:idx]];
 
-        if (idx == 2) {
+        [mutableString appendString:characterString];
+
+        if (idx == 1) {
             [mutableString appendString:@"/"];
         }
-
-        [mutableString appendString:characterString];
 
         ++idx;
     }
