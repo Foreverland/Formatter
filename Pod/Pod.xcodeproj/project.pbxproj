@@ -7,42 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1407B4151BB539A4004AA74E /* BankAccountNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407B40A1BB539A4004AA74E /* BankAccountNumberFormatter.m */; settings = {ASSET_TAGS = (); }; };
-		1407B4161BB539A4004AA74E /* EmailFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407B40C1BB539A4004AA74E /* EmailFormatter.m */; settings = {ASSET_TAGS = (); }; };
-		1407B4171BB539A4004AA74E /* FloatFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407B40E1BB539A4004AA74E /* FloatFormatter.m */; settings = {ASSET_TAGS = (); }; };
-		1407B4181BB539A4004AA74E /* Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407B4101BB539A4004AA74E /* Formatter.m */; settings = {ASSET_TAGS = (); }; };
-		1407B4191BB539A4004AA74E /* PhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407B4121BB539A4004AA74E /* PhoneNumberFormatter.m */; settings = {ASSET_TAGS = (); }; };
-		1407B41A1BB539A4004AA74E /* SocialSecurityNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407B4141BB539A4004AA74E /* SocialSecurityNumberFormatter.m */; settings = {ASSET_TAGS = (); }; };
-		149AF1EF1BB7CB07006F8949 /* CardNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 149AF1EC1BB7CB07006F8949 /* CardNumberFormatter.m */; settings = {ASSET_TAGS = (); }; };
-		149AF1F01BB7CB07006F8949 /* CardExpirationDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 149AF1EE1BB7CB07006F8949 /* CardExpirationDateFormatter.m */; settings = {ASSET_TAGS = (); }; };
-		149AF1F21BB7CB6B006F8949 /* EmailFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AF1F11BB7CB6B006F8949 /* EmailFormatterTests.swift */; settings = {ASSET_TAGS = (); }; };
+		1403833D1BBA716700EE2FAD /* Formattable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1403833C1BBA716700EE2FAD /* Formattable.swift */; settings = {ASSET_TAGS = (); }; };
+		1403833F1BBA71F700EE2FAD /* CardNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1403833E1BBA71F700EE2FAD /* CardNumberFormatter.swift */; settings = {ASSET_TAGS = (); }; };
+		140383411BBA745E00EE2FAD /* CardExpirationDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140383401BBA745E00EE2FAD /* CardExpirationDateFormatter.swift */; settings = {ASSET_TAGS = (); }; };
 		149AF1F41BB7CC20006F8949 /* CardNumberFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AF1F31BB7CC20006F8949 /* CardNumberFormatterTests.swift */; settings = {ASSET_TAGS = (); }; };
 		149AF1F61BB7CDD4006F8949 /* CardExpirationDateFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AF1F51BB7CDD4006F8949 /* CardExpirationDateFormatterTests.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1407B4091BB539A4004AA74E /* BankAccountNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankAccountNumberFormatter.h; sourceTree = "<group>"; };
-		1407B40A1BB539A4004AA74E /* BankAccountNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccountNumberFormatter.m; sourceTree = "<group>"; };
-		1407B40B1BB539A4004AA74E /* EmailFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailFormatter.h; sourceTree = "<group>"; };
-		1407B40C1BB539A4004AA74E /* EmailFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailFormatter.m; sourceTree = "<group>"; };
-		1407B40D1BB539A4004AA74E /* FloatFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatFormatter.h; sourceTree = "<group>"; };
-		1407B40E1BB539A4004AA74E /* FloatFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatFormatter.m; sourceTree = "<group>"; };
-		1407B40F1BB539A4004AA74E /* Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formatter.h; sourceTree = "<group>"; };
-		1407B4101BB539A4004AA74E /* Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Formatter.m; sourceTree = "<group>"; };
-		1407B4111BB539A4004AA74E /* PhoneNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberFormatter.h; sourceTree = "<group>"; };
-		1407B4121BB539A4004AA74E /* PhoneNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberFormatter.m; sourceTree = "<group>"; };
-		1407B4131BB539A4004AA74E /* SocialSecurityNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialSecurityNumberFormatter.h; sourceTree = "<group>"; };
-		1407B4141BB539A4004AA74E /* SocialSecurityNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialSecurityNumberFormatter.m; sourceTree = "<group>"; };
+		1403833C1BBA716700EE2FAD /* Formattable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formattable.swift; sourceTree = "<group>"; };
+		1403833E1BBA71F700EE2FAD /* CardNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardNumberFormatter.swift; sourceTree = "<group>"; };
+		140383401BBA745E00EE2FAD /* CardExpirationDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardExpirationDateFormatter.swift; sourceTree = "<group>"; };
 		146D72AC1AB782920058798C /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146D72B11AB782920058798C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		149AF1EB1BB7CB07006F8949 /* CardNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardNumberFormatter.h; sourceTree = "<group>"; };
-		149AF1EC1BB7CB07006F8949 /* CardNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardNumberFormatter.m; sourceTree = "<group>"; };
-		149AF1ED1BB7CB07006F8949 /* CardExpirationDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardExpirationDateFormatter.h; sourceTree = "<group>"; };
-		149AF1EE1BB7CB07006F8949 /* CardExpirationDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardExpirationDateFormatter.m; sourceTree = "<group>"; };
-		149AF1F11BB7CB6B006F8949 /* EmailFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailFormatterTests.swift; sourceTree = "<group>"; };
 		149AF1F31BB7CC20006F8949 /* CardNumberFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardNumberFormatterTests.swift; sourceTree = "<group>"; };
 		149AF1F51BB7CDD4006F8949 /* CardExpirationDateFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardExpirationDateFormatterTests.swift; sourceTree = "<group>"; };
-		14A139B21AEFC72B00AD732F /* Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		14C136511AB784B200B7B07A /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		14C136521AB784B200B7B07A /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		14C136541AB784B200B7B07A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
@@ -83,10 +62,8 @@
 		146D72AF1AB782920058798C /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				149AF1F11BB7CB6B006F8949 /* EmailFormatterTests.swift */,
 				149AF1F31BB7CC20006F8949 /* CardNumberFormatterTests.swift */,
 				149AF1F51BB7CDD4006F8949 /* CardExpirationDateFormatterTests.swift */,
-				14A139B21AEFC72B00AD732F /* Tests-Bridging-Header.h */,
 				146D72B01AB782920058798C /* Supporting Files */,
 			);
 			path = Tests;
@@ -114,22 +91,9 @@
 		14C1365B1AB784BC00B7B07A /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				1407B40F1BB539A4004AA74E /* Formatter.h */,
-				1407B4101BB539A4004AA74E /* Formatter.m */,
-				1407B40D1BB539A4004AA74E /* FloatFormatter.h */,
-				1407B40E1BB539A4004AA74E /* FloatFormatter.m */,
-				1407B40B1BB539A4004AA74E /* EmailFormatter.h */,
-				1407B40C1BB539A4004AA74E /* EmailFormatter.m */,
-				149AF1EB1BB7CB07006F8949 /* CardNumberFormatter.h */,
-				149AF1EC1BB7CB07006F8949 /* CardNumberFormatter.m */,
-				1407B4111BB539A4004AA74E /* PhoneNumberFormatter.h */,
-				1407B4121BB539A4004AA74E /* PhoneNumberFormatter.m */,
-				149AF1ED1BB7CB07006F8949 /* CardExpirationDateFormatter.h */,
-				149AF1EE1BB7CB07006F8949 /* CardExpirationDateFormatter.m */,
-				1407B4091BB539A4004AA74E /* BankAccountNumberFormatter.h */,
-				1407B40A1BB539A4004AA74E /* BankAccountNumberFormatter.m */,
-				1407B4131BB539A4004AA74E /* SocialSecurityNumberFormatter.h */,
-				1407B4141BB539A4004AA74E /* SocialSecurityNumberFormatter.m */,
+				1403833C1BBA716700EE2FAD /* Formattable.swift */,
+				1403833E1BBA71F700EE2FAD /* CardNumberFormatter.swift */,
+				140383401BBA745E00EE2FAD /* CardExpirationDateFormatter.swift */,
 			);
 			name = Source;
 			path = ../Source;
@@ -204,17 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1407B4181BB539A4004AA74E /* Formatter.m in Sources */,
-				149AF1F21BB7CB6B006F8949 /* EmailFormatterTests.swift in Sources */,
-				1407B4171BB539A4004AA74E /* FloatFormatter.m in Sources */,
-				1407B41A1BB539A4004AA74E /* SocialSecurityNumberFormatter.m in Sources */,
-				1407B4191BB539A4004AA74E /* PhoneNumberFormatter.m in Sources */,
-				1407B4151BB539A4004AA74E /* BankAccountNumberFormatter.m in Sources */,
-				149AF1F01BB7CB07006F8949 /* CardExpirationDateFormatter.m in Sources */,
-				1407B4161BB539A4004AA74E /* EmailFormatter.m in Sources */,
-				149AF1EF1BB7CB07006F8949 /* CardNumberFormatter.m in Sources */,
+				1403833D1BBA716700EE2FAD /* Formattable.swift in Sources */,
 				149AF1F41BB7CC20006F8949 /* CardNumberFormatterTests.swift in Sources */,
 				149AF1F61BB7CDD4006F8949 /* CardExpirationDateFormatterTests.swift in Sources */,
+				1403833F1BBA71F700EE2FAD /* CardNumberFormatter.swift in Sources */,
+				140383411BBA745E00EE2FAD /* CardExpirationDateFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +272,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bakkenbaeck.labs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Tests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -331,7 +288,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bakkenbaeck.labs.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Tests-Bridging-Header.h";
 			};
 			name = Release;
 		};
