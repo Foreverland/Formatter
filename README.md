@@ -18,7 +18,7 @@ Use `reverse` to return the formatted text to its original form.
 
 ```swift
 let formatter = CardExpirationDateFormatter()
-formatter.formatString("01/19" reverse:true)
+formatter.formatString("01/19", reverse:true)
 // => 0119
 ```
 
