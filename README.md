@@ -2,6 +2,20 @@
 
 Use `reverse` to return the formatted text to its original form.
 
+##### CardNumberFormatter
+```swift
+let formatter = CardNumberFormatter()
+formatter.formatString("1234 5678 1234 5678") 
+// => "1234 5678 1234 5678"
+```
+
+##### CardExpirationDateFormatter
+```swift
+let formatter = CardExpirationDateFormatter()
+formatter.formatString("0119")
+// => 01/19
+```
+
 ## Installation
 
 **Formatter** is available through [CocoaPods](http://cocoapods.org). To install
