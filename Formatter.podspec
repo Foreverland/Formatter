@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "Formatter"
   s.summary          = "Helps formatting text, card numbers, currency and so on"
-  s.version          = "0.2.1"
+  s.version          = "0.3.0"
   s.homepage         = "https://github.com/3lvis/Formatter"
   s.license          = 'MIT'
   s.author           = { "Elvis Nuñez" => "elvisnunez@me.com" }
@@ -10,5 +10,4 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
   s.source_files = 'Source/**/*'
-  s.frameworks = 'Foundation'
 end
