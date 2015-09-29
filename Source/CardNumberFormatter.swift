@@ -1,4 +1,6 @@
 public struct CardNumberFormatter: Formattable {
+    public init() { }
+
     public func formatString(string: String, reverse: Bool = false) -> String {
         var formattedString = String()
         let normalizedString = string.stringByReplacingOccurrencesOfString(" ", withString: "")
