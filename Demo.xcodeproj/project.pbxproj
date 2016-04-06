@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1403833D1BBA716700EE2FAD /* Formattable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1403833C1BBA716700EE2FAD /* Formattable.swift */; settings = {ASSET_TAGS = (); }; };
-		1403833F1BBA71F700EE2FAD /* CardNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1403833E1BBA71F700EE2FAD /* CardNumberFormatter.swift */; settings = {ASSET_TAGS = (); }; };
-		140383411BBA745E00EE2FAD /* CardExpirationDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140383401BBA745E00EE2FAD /* CardExpirationDateFormatter.swift */; settings = {ASSET_TAGS = (); }; };
-		149AF1F41BB7CC20006F8949 /* CardNumberFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AF1F31BB7CC20006F8949 /* CardNumberFormatterTests.swift */; settings = {ASSET_TAGS = (); }; };
-		149AF1F61BB7CDD4006F8949 /* CardExpirationDateFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149AF1F51BB7CDD4006F8949 /* CardExpirationDateFormatterTests.swift */; settings = {ASSET_TAGS = (); }; };
+		1449C29A1CB4F17600FEE3EC /* CardExpirationDateFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449C2981CB4F17600FEE3EC /* CardExpirationDateFormatterTests.swift */; };
+		1449C29B1CB4F17600FEE3EC /* CardNumberFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449C2991CB4F17600FEE3EC /* CardNumberFormatterTests.swift */; };
+		1449C2A01CB4F17E00FEE3EC /* CardExpirationDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449C29D1CB4F17E00FEE3EC /* CardExpirationDateFormatter.swift */; };
+		1449C2A11CB4F17E00FEE3EC /* CardNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449C29E1CB4F17E00FEE3EC /* CardNumberFormatter.swift */; };
+		1449C2A21CB4F17E00FEE3EC /* Formattable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449C29F1CB4F17E00FEE3EC /* Formattable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1403833C1BBA716700EE2FAD /* Formattable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formattable.swift; sourceTree = "<group>"; };
-		1403833E1BBA71F700EE2FAD /* CardNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardNumberFormatter.swift; sourceTree = "<group>"; };
-		140383401BBA745E00EE2FAD /* CardExpirationDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardExpirationDateFormatter.swift; sourceTree = "<group>"; };
+		1449C2981CB4F17600FEE3EC /* CardExpirationDateFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardExpirationDateFormatterTests.swift; sourceTree = "<group>"; };
+		1449C2991CB4F17600FEE3EC /* CardNumberFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardNumberFormatterTests.swift; sourceTree = "<group>"; };
+		1449C29D1CB4F17E00FEE3EC /* CardExpirationDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardExpirationDateFormatter.swift; sourceTree = "<group>"; };
+		1449C29E1CB4F17E00FEE3EC /* CardNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardNumberFormatter.swift; sourceTree = "<group>"; };
+		1449C29F1CB4F17E00FEE3EC /* Formattable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formattable.swift; sourceTree = "<group>"; };
 		146D72AC1AB782920058798C /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146D72B11AB782920058798C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		149AF1F31BB7CC20006F8949 /* CardNumberFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardNumberFormatterTests.swift; sourceTree = "<group>"; };
-		149AF1F51BB7CDD4006F8949 /* CardExpirationDateFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardExpirationDateFormatterTests.swift; sourceTree = "<group>"; };
-		14C136511AB784B200B7B07A /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
-		14C136521AB784B200B7B07A /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
-		14C136541AB784B200B7B07A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
-		14C136551AB784B200B7B07A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		14C0AF7F1BD6D4230009ECBE /* .slather.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .slather.yml; sourceTree = "<group>"; };
+		14C0AF801BD6D4230009ECBE /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		14C0AF811BD6D4230009ECBE /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		14C0AF821BD6D4230009ECBE /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		14C0AF831BD6D4230009ECBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9565D746F60F3494FA1C68E3 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,13 +41,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1449C29C1CB4F17E00FEE3EC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1449C29D1CB4F17E00FEE3EC /* CardExpirationDateFormatter.swift */,
+				1449C29E1CB4F17E00FEE3EC /* CardNumberFormatter.swift */,
+				1449C29F1CB4F17E00FEE3EC /* Formattable.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		146D728A1AB782920058798C = {
 			isa = PBXGroup;
 			children = (
+				1449C29C1CB4F17E00FEE3EC /* Sources */,
 				14C136501AB7849300B7B07A /* Metadata */,
-				14C1365B1AB784BC00B7B07A /* Source */,
 				146D72AF1AB782920058798C /* Tests */,
 				146D72941AB782920058798C /* Products */,
+				F48A8DCEB3ABAE4AC5A9D0FC /* Frameworks */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -62,8 +75,8 @@
 		146D72AF1AB782920058798C /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				149AF1F31BB7CC20006F8949 /* CardNumberFormatterTests.swift */,
-				149AF1F51BB7CDD4006F8949 /* CardExpirationDateFormatterTests.swift */,
+				1449C2981CB4F17600FEE3EC /* CardExpirationDateFormatterTests.swift */,
+				1449C2991CB4F17600FEE3EC /* CardNumberFormatterTests.swift */,
 				146D72B01AB782920058798C /* Supporting Files */,
 			);
 			path = Tests;
@@ -80,23 +93,21 @@
 		14C136501AB7849300B7B07A /* Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				14C136511AB784B200B7B07A /* .travis.yml */,
-				14C136521AB784B200B7B07A /* CONTRIBUTING.md */,
-				14C136541AB784B200B7B07A /* LICENSE.md */,
-				14C136551AB784B200B7B07A /* README.md */,
+				14C0AF7F1BD6D4230009ECBE /* .slather.yml */,
+				14C0AF801BD6D4230009ECBE /* .travis.yml */,
+				14C0AF811BD6D4230009ECBE /* CHANGELOG.md */,
+				14C0AF821BD6D4230009ECBE /* CONTRIBUTING.md */,
+				14C0AF831BD6D4230009ECBE /* README.md */,
 			);
 			name = Metadata;
 			sourceTree = "<group>";
 		};
-		14C1365B1AB784BC00B7B07A /* Source */ = {
+		F48A8DCEB3ABAE4AC5A9D0FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1403833C1BBA716700EE2FAD /* Formattable.swift */,
-				1403833E1BBA71F700EE2FAD /* CardNumberFormatter.swift */,
-				140383401BBA745E00EE2FAD /* CardExpirationDateFormatter.swift */,
+				9565D746F60F3494FA1C68E3 /* Pods.framework */,
 			);
-			name = Source;
-			path = ../Source;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,17 +136,17 @@
 		146D728B1AB782920058798C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = PREFIX;
+				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "COMPANY NAME";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					146D72AB1AB782920058798C = {
 						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
-			buildConfigurationList = 146D728E1AB782920058798C /* Build configuration list for PBXProject "Pod" */;
+			buildConfigurationList = 146D728E1AB782920058798C /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -168,11 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1403833D1BBA716700EE2FAD /* Formattable.swift in Sources */,
-				149AF1F41BB7CC20006F8949 /* CardNumberFormatterTests.swift in Sources */,
-				149AF1F61BB7CDD4006F8949 /* CardExpirationDateFormatterTests.swift in Sources */,
-				1403833F1BBA71F700EE2FAD /* CardNumberFormatter.swift in Sources */,
-				140383411BBA745E00EE2FAD /* CardExpirationDateFormatter.swift in Sources */,
+				1449C2A21CB4F17E00FEE3EC /* Formattable.swift in Sources */,
+				1449C2A01CB4F17E00FEE3EC /* CardExpirationDateFormatter.swift in Sources */,
+				1449C29B1CB4F17600FEE3EC /* CardNumberFormatterTests.swift in Sources */,
+				1449C29A1CB4F17600FEE3EC /* CardExpirationDateFormatterTests.swift in Sources */,
+				1449C2A11CB4F17E00FEE3EC /* CardNumberFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,17 +271,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bakkenbaeck.labs.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -280,13 +288,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bakkenbaeck.labs.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -294,7 +299,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		146D728E1AB782920058798C /* Build configuration list for PBXProject "Pod" */ = {
+		146D728E1AB782920058798C /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				146D72B41AB782920058798C /* Debug */,

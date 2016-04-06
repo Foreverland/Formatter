@@ -1,9 +1,9 @@
-public struct CardNumberFormatter: Formattable {
+public struct CardExpirationDateFormatter: Formattable {
     public init() { }
 
     public func formatString(string: String, reverse: Bool = false) -> String {
         var formattedString = String()
-        let normalizedString = string.stringByReplacingOccurrencesOfString(" ", withString: "")
+        let normalizedString = string.stringByReplacingOccurrencesOfString("/", withString: "")
         if reverse {
             formattedString = normalizedString
         } else {
@@ -13,12 +13,12 @@ public struct CardNumberFormatter: Formattable {
                 let index = normalizedString.startIndex.advancedBy(idx)
                 character = normalizedString[index]
 
-                if idx != 0 && idx % 4 == 0 {
-                    formattedString.appendContentsOf(" ")
+                formattedString.append(character)
+                if idx == 1{
+                    formattedString.appendContentsOf("/")
                 }
 
-                formattedString.append(character)
-                idx++
+                idx += 1
             }
         }
 
